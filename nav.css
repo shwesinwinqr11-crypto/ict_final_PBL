@@ -1,0 +1,111 @@
+nav {
+    background-color: #3c5524;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 22px;
+    margin: 0 7px;
+    color: lightyellow;
+}
+
+/* logo */
+nav .logo {
+    float: left;
+    margin: 0 30px;
+    border-radius: 50%;
+
+
+
+
+
+}
+
+nav .logo img {
+    width: 45px;
+    height: 50px;
+    padding-top: 10px;
+
+}
+
+/* check btn */
+nav #check {
+    display: none;
+}
+
+nav .checkbtn {
+    float: right;
+    font-size: 40px;
+    color: #e4efd9;
+    margin-right: 30px;
+    line-height: 60px;
+    display: none;
+}
+
+nav .main_menu .login-nav {
+    float: right;
+    margin-right: 20px;
+}
+
+nav .main_menu .reg-nav {
+    float: right;
+}
+
+/* active nav item */
+.active {
+    background-color: olivedrab;
+    padding: 5px 10px;
+    border-radius: 7px;
+}
+
+/* for small devices */
+@media screen and (max-width:992px) {
+    nav .checkbtn {
+        display: block;
+
+    }
+
+
+    nav ul li {
+        display: block;
+        margin: 20px 0;
+    }
+
+    nav ul {
+        background-color: rgb(29, 65, 65);
+        text-align: center;
+        padding: 30px 0;
+        width: 100%;
+        margin-top: 0;
+        position: absolute;
+        top: 60px;
+        left: -100%;
+
+
+        max-height: 80vh;
+        overflow-y: auto;
+    }
+
+
+    nav .main_menu .login-nav,
+    nav .main_menu .reg-nav {
+        float: none;
+        margin-right: 0;
+    }
+
+    #check:checked~ul {
+        left: 0;
+    }
+
+}

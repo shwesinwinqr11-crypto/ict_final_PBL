@@ -1,0 +1,191 @@
+/* intro */
+.impact_intro_container {
+    background-color: #e7f0db;
+    padding: 25px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.impact_intro_title {
+    color: #4f6b3c;
+    font-size: 28px;
+    margin-bottom: 12px;
+    font-weight: 700;
+}
+
+.impact_intro_text {
+    color: #505a4c;
+    font-size: 17px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Responsive */
+@media screen and (max-width: 700px) {
+    .impact_intro_title {
+        font-size: 22px;
+    }
+
+    .impact_intro_text {
+        font-size: 15px;
+        padding: 0 10px;
+    }
+}
+
+/* card */
+
+.impact-section-title {
+    text-align: center;
+    font-size: 40px;
+    color:  #506b47;
+    margin-top: 20px 20px;
+}
+
+
+
+
+
+
+.why_its_important {
+    background-color: #e4efd9;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 25px 0;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+}
+
+.why_its_important_h2 {
+    font-size: 30px;
+    text-align: center;
+    color: #506b47;
+    margin-bottom: 10px;
+}
+
+.why_its_important_h2 hr {
+    width: 80%;
+    border: 0;
+    border-top: 2px solid #4e6b36;
+    margin: 10px auto;
+}
+
+.why_its_important_text {
+    padding: 10px 20px;
+}
+
+.why_its_important_text p {
+    font-size: 18px;
+    color: #506b47;
+    line-height: 1.6;
+}
+
+
+
+.park_img img {
+    width: 100%;
+    height: 330px;
+    border-radius: 25px;
+    object-fit: cover;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+}
+
+.park_img {
+    margin: 0 15px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+
+
+@media screen and (max-width: 988px) {
+    .why_its_important_h2 {
+        font-size: 26px;
+    }
+
+    .why_its_important_text p {
+        font-size: 17px;
+    }
+
+    .section_title {
+        font-size: 32px;
+    }
+
+    .section_title_line {
+        width: 90px;
+        height: 4px;
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+    .park_img img {
+        height: 230px;
+        border-radius: 18px;
+    }
+
+    .why_its_important {
+        padding: 15px;
+    }
+
+    .why_its_important_text {
+        padding: 5px 10px;
+        text-align: center;
+    }
+
+    .why_its_important_h2 {
+        font-size: 22px;
+    }
+
+    .why_its_important_text p {
+        font-size: 16px;
+    }
+
+    .section_title {
+        font-size: 26px;
+    }
+
+    .section_title_line {
+        width: 70px;
+        height: 4px;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 760px) {
+    .why_its_important .col-6,
+    .why_its_important .col-5,
+    .why_its_important_text,
+    .park_img {
+        width: 100% !important;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .why_its_important {
+        padding: 15px;
+    }
+
+    .why_its_important_text {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .park_img img {
+        height: 260px !important;
+        border-radius: 18px;
+    }
+
+    .why_its_important_h2 {
+        font-size: 24px;
+    }
+
+    .why_its_important_text p {
+        font-size: 15px;
+    }
+}
